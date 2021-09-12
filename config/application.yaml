@@ -7,5 +7,6 @@ spring:
     url: jdbc:postgresql://localhost:5432/shop
     username: postgres
     password: postgres
+    driver-class-name: org.postgresql.Driver
   flyway:
     baseline-on-migrate: true
